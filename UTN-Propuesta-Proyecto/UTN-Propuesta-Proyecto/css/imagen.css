@@ -1,0 +1,13 @@
+article  {
+    height: calc(100vh - 100px - 300px );
+}
+
+#titulo{
+    background-color: rgb(148, 114, 243);
+}
+div h1 {    
+    color: rgb(233, 252, 255);
+    display: flex;
+    justify-content: center;
+
+}
