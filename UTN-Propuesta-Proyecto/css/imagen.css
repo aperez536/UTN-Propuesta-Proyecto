@@ -2,28 +2,12 @@ article  {
     height: calc(100vh - 100px - 300px );
 }
 
-article section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    top:0px;
+#titulo{
+    background-color: rgb(148, 114, 243);
 }
-
-
-article section p {
-    box-shadow: 4px 4px;
-    background-color: rgb(135, 192, 238);
-    font-size: 30px;
-    width: 32%;
-    height: 1%;
-    color: rgb(65, 9, 9);
+div h1 {    
+    color: rgb(233, 252, 255);
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-    box-sizing: border-box;
-    position: relative;
-    top: 100%;
-    transition: all .3s;
+
 }
