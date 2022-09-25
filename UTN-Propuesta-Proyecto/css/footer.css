@@ -3,7 +3,6 @@ a{
 }
 ul {
     list-style: none;
-    padding-left: 0;
 }
 footer {
     background-color: #555;
@@ -69,21 +68,5 @@ body {
     margin: 0.5rem;
     font-size: 1.25rem;
 }
-.ft-legal {
-    padding: 0.9375rem 1.875rem;
-    background-color: #333;
-}
-.ft-legal-list {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.ft-legal-list li {
-    margin: 0.125rem 0.625rem;
-    white-space: nowrap;
-}
 
-.ft-legal-list li:nth-last-child(2) {
-    flex: 1;       /* flex-grow: 1; */
-}
 
