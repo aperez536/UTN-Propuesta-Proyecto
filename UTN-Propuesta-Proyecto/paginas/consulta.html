@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/imagen.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/contacto.css">
 
 </head>
 
@@ -51,43 +52,36 @@
         <h1> Bienvenido Al Pet Shop Fleco</h1>
     </div>
     <section>
-        <table class="rwd-table">
-            <thead>
-                <tr>
-                    <th>Marca</th>
-                    <th>Nombre Bolsa </th>
-                    <th>Cantidad Kls</th>
-                    <th>Precio</th>
-            </thead>
+        <article>
+            <div class="contact_form">
 
-            <tbody class="table-hover">
-                <tr>
-                    <td data-th="Marca">Royal Canin</td>
-                    <td data-th="Nombre Bolsa">Perfomance</td>
-                    <td data-th="Cantidad Kls">24</td>
-                    <td data-th="Precio">$ 4000</td>
-                </tr>
-                <tr>
-                    <td data-th="Marca">Purina</td>
-                    <td data-th="Nombre Bolsa">Dog Chow</td>
-                    <td data-th="Cantidad Kls">24</td>
-                    <td data-th="Precio">$ 3500</td>
-                </tr>
-                <tr>
-                    <td data-th="Marca">Purina</td>
-                    <td data-th="Nombre Bolsa">Cat Chow</td>
-                    <td data-th="Cantidad Kls">15</td>
-                    <td data-th="Precio">$ 2400</td>
-                </tr>
-                <tr>
-                    <td data-th="Marca">Purina</td>
-                    <td data-th="Nombre Bolsa">Dogui</td>
-                    <td data-th="Cantidad Kls">15</td>
-                    <td data-th="Precio">$ 2000</td>
-                </tr>
+                <div class="formulario">
+                    <h1>Numero de Consulta</h1>
+                    <h3>Escribe tu numero de consulta para ver la respuesta</h3>
 
-            </tbody>
-        </table>
+
+                    <form action="submeter-formulario" method="post">
+
+
+                        <p>
+                            <label for="nombre" class="colocar_nombre">Nro Consulta
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="nro_consulta" id="nombre" required="obligatorio"
+                                placeholder="Ingrese Numero de consulta">
+                        </p>
+                        <button type="submit" name="enviar_formulario" id="enviar">
+                            <p>Enviar</p>
+                        </button>
+
+                        <p class="aviso">
+                            <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>
+
+                    </form>
+                </div>
+            </div>
+        </article>
     </section>
 
     <footer>

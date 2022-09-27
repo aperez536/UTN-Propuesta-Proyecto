@@ -3,11 +3,15 @@
     padding: 0;
 }
 
-body {
+body  section article {
     font-family: Arial, Helvetica, sans-serif;
     background: url(../imagen/fondo.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    display: flex;
+    min-width: auto;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 ul {
@@ -74,8 +78,6 @@ a {
 .submenu a:hover {
     background-color: rgb(58,58,57);
 }
-
-
 
 /* TABLA */
 
